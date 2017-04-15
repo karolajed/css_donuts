@@ -3,7 +3,12 @@ body {
     justify-content: space-around;
     align-items: center;
     height: 800px;
+}
+
+.main-container {
+    background-color: #deb3bb;
     width: 80%;
+    margin: 0 auto;
 }
 
 .top {
@@ -26,7 +31,7 @@ body {
     height: 100px;
     width: 100px;
     border: 90px solid #c1ac66;
-    border-radius: 50%;
+    border-radius: 60%;
     position: relative;
 }
 
