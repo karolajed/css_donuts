@@ -1,0 +1,90 @@
+body {
+    background-color: #deb3bb;
+    justify-content: space-around;
+    align-items: center;
+    height: 800px;
+    width: 80%;
+}
+
+.top {
+    width: 100%;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-size: 70px;
+}
+
+.bottom {
+    align-items: center;
+    display: flex;
+    width: 100%;
+}
+
+.donut {
+    display: inline;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 100px;
+    width: 100px;
+    border: 90px solid #c1ac66;
+    border-radius: 50%;
+    position: relative;
+}
+
+.donut::before {
+    content : '';
+    height: 100px;
+    position: absolute;
+    border: 70px solid #4d4627;
+    border-radius: 50%;
+    width: 100px;
+    top: -72px;
+    left: -72px;
+    transform: scale(1.1);
+}
+
+.donut::after {
+    content: '';
+    width: 2px;
+    height: 2px;
+    position: absolute;
+    background: #fff;
+    top: -70px;
+    left: 50px;
+    transform: rotate(30deg);
+    box-shadow: 
+        0 20px 1px #ffffff,
+        60px 20px 1px 1px #fc84f3,
+        -30px 80px 1px #fc84f3,
+        -10px 160px 1px 1px #fff,
+        30px 160px 1px #fff,
+        50px 200px 1px 1px #fff,
+        130px 100px 1px #fc84f3,
+        150px 50px 1px 1px #fc84f3,
+        140px 170px 1px 1px #fffcfc,
+        100px 150px 1px 1px #fc84f3,
+        -20px 100px 1px #fc84f3,
+        -40px 40px 1px 1px #fffcfc,
+        -50px 120px 1px 1px #fc84f3,
+        120px 40px 1px 1px #ffffff,
+        20px 40px 1px 1px #fc84f3,
+        0 200px 1px 1px #fff,
+        120px 170px 1px 1px #fc84f3,
+        150px 12px 1px 1px #fff,
+        80px 200px 1px 1px #fff,
+        60px -10px 1px 1px #fc84f3,
+        160px 100px 1px 1px #fff,
+        60px -10px 1px 1px #fc84f3;
+}
+
+.donut, .donut::before {
+  box-shadow: 0px 0px 2px 2px #baa363;
+}
+
+.donut:hover {
+  transform: rotate(360deg);
+  box-shadow:  0px 0px 5px 5px #887543;
+}
+
+#2 donut::before{
+    color: #c682e5;
+}
