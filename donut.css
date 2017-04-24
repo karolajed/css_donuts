@@ -93,3 +93,10 @@ body {
 #2 donut::before{
     color: #c682e5;
 }
+input {
+    font-size: 22px;
+}
+
+a {
+    font-size: 16px;
+}
